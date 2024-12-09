@@ -1,4 +1,6 @@
 import { HiChevronDoubleUp } from "react-icons/hi";
+import { Link } from 'react-router-dom';
+
 
 
 export default function Footer() {
@@ -7,12 +9,12 @@ export default function Footer() {
         <>
             <div className="footer-container">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/experience">Experience</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/skills">Skills</a></li>
-                    <li><a href="/education">Education</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/experience">Experience</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/education">Education</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
                 <button className="desktop-to-top"><a href="#navigation"><HiChevronDoubleUp className="to-top"/></a>
                 </button>

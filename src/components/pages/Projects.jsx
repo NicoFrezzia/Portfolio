@@ -1,6 +1,8 @@
 import SecurityCamera from "../../assets/securty camera.png"
 import RizzlrDesktop from "../../assets/Rizzlr_Desktop.png"
 import iGEM from "../../assets/iGEM.png"
+import Pokedex from "../../assets/Pokedex.png"
+
 
 
 
@@ -60,6 +62,22 @@ export default function Projects(){
                     <div className="tech-container">
                         <p>CSS</p>
                         <p>HTML</p>
+                    </div>
+                </div>
+                <div className="project-container animation-in">
+                    <div className="project-container-top">
+                        <div className="image-container image-container-3">
+                            <a href="https://nicofrezzia.github.io/JS-Pok-dex/" target="_blank"><img src={Pokedex} alt="project image" className="project-image-desktop project-4"/>
+                            <div className="project-title">API Pokédex</div></a>
+                        </div>
+                        <p className="project-descrtiption">I created a Pokédex web page using the PokéAPI with HTML, CSS, and vanilla JavaScript. Users can browse a list of Pokémon, and the background color changes dynamically based on the selected Pokémon’s type. This project showcases my ability to work with APIs and create interactive, user-focused features.</p>
+                    </div>
+                    <div className="tech-container">
+                        <p>JavaScript</p>
+                        <p>Pokédex API</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                        <p>Vanilla</p>
                     </div>
                 </div>
             </div>
