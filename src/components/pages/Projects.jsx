@@ -67,7 +67,7 @@ export default function Projects(){
                 <div className="project-container animation-in">
                     <div className="project-container-top">
                         <div className="image-container image-container-3">
-                            <a href="https://nicofrezzia.github.io/JS-Pok-dex/" target="_blank"><img src={Pokedex} alt="project image" className="project-image-desktop project-4"/>
+                            <a href="https://nicofrezzia.github.io/Pokedex/" target="_blank"><img src={Pokedex} alt="project image" className="project-image-desktop project-4"/>
                             <div className="project-title">API Pokédex</div></a>
                         </div>
                         <p className="project-descrtiption">I created a Pokédex web page using the PokéAPI with HTML, CSS, and vanilla JavaScript. Users can browse a list of Pokémon, and the background color changes dynamically based on the selected Pokémon’s type. This project showcases my ability to work with APIs and create interactive, user-focused features.</p>
