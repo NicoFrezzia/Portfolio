@@ -67,7 +67,7 @@ export default function Contact() {
             <a href="https://m.facebook.com/profile.php?id=100071865793671&__n=K" target="_blank">facebook.com/nicholas.frezzia</a>
           </p>
         </div>
-        <div className="contact-icon-container">
+        <div className="contact-icon-container animation-in-fb">
           <a href="https://docs.google.com/document/d/1y4UKJ55OH-if1s1Yp5zEWhB9deuoUPB1A9m4cAP03NM/edit?usp=sharing" target="_blank"><IoDocumentText className="contact-icon"/></a>
           <p><a href="https://docs.google.com/document/d/1y4UKJ55OH-if1s1Yp5zEWhB9deuoUPB1A9m4cAP03NM/edit?usp=sharing" target="_blank">My Resume</a></p>
         </div>
