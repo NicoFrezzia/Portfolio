@@ -5,8 +5,6 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { IoDocumentText } from "react-icons/io5";
 
-
-
 export default function Contact() {
   return (
     <>
